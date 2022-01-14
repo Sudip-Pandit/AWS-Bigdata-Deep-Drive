@@ -10,13 +10,15 @@ This repository contains all basic and advance concepts of aws, aws+bigdata.
   5. VPC is dedicated to each and every AWS account
   
   Subnet:
+  
      -It is a range of IP addresses
      
      -We can launch resources available in AWS account into a specified subnet
      
      -It is also called logical subdivision of an IP network
      
-     -Only the communication over the internet, or virtual private gateway connection is possible once have a configuration of subnet with an internet gateway
+     -Only the communication over the internet, or virtual private gateway connection is possible once have a configuration of subnet with an internet gateway.
+     
      -Always use a public subnet for resources that must be connected to the internet, but private subnet is never connected to the internet 
      
      -In order to secure the resources available in AWS, we can put multiple security layers (including network lists and secuirty groups are mentioned)
